@@ -1,13 +1,13 @@
 {
-    "name": "heyday/silverstripe-honeypot",
-    "type": "silverstripe-module",
-    "require": {
-        "silverstripe/spamprotection": "~3.0.0",
-        "composer/installers": "~1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Heyday\\SilverStripe\\HoneyPot\\": "code/"
-        }
+  "name": "heyday/silverstripe-honeypot",
+  "type": "silverstripe-vendormodule",
+  "require": {
+    "silverstripe/spamprotection": "~3.0.0",
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Heyday\\SilverStripe\\HoneyPot\\": "code/"
     }
+  }
 }
